@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*body{
+    width: 100%;
+    height: 100vh;
+}
+.sec1{
+    background-color: white;
+    height: 1300px;
+}
+nav{
+    background-color: white;
+    color: black;
+    height: 50px;
+    /* justify-content: end; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* text-align: center; */
+    padding: 30px 60px;
+    position: sticky;
+    top: 0;
+}
+.firstd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.firstd img{
+    width: 190px;
+    height: 40px;
+}
+.ref{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.op:hover{
+    color: orange;
+    /* font-size: 12px; */
+}
+.op{
+    text-decoration: none;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.abb{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* width: 100px; */
+    /* height: 50px; */
+    /* align-items: center; */
+    font-size: 12px;
+    font-weight: 400;
+}
+.drop, .weydrop{
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    color: black;
+    top: 30%;
+    margin-top: 10px;
+    border-top: 3px solid orange;
+    font-size: 12px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+    left: -100%;
+}
+.abb:hover .drop, .ourwey:hover .weydrop{
+    display: block;
+    color: black;
+    /* display: flex;
+    flex-direction: column; */
+}
+.ourwey{
+    position: relative;
+    font-size: 12px;
+}
+.secondd{
+    text-align: center;
+    justify-content: center;
+    margin: 70px;
+}
+.secondd h1{
+    font-size: 47px;
+    font-family: sans-serif;
+    font-weight: 700;
+    /* font-stretch: 100%; */
+    text-align: center;
+    /* justify-content: center; */
+}
+.secondd p{
+    font-size: 17px;
+    font-family: sans-serif;
+    width: 990px;
+    font-weight: 400;
+    padding: 0px 0px 16px;
+    text-align: center;
+    /* justify-content: center; */
+    margin: 17px 100px;
+}
+.thirdd{
+    display: flex;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    margin: auto;
+    width: 990px;
+    height: 700px;
+    /* border-radus: 20px; */
+}
+.freespace img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.freespace{
+    background-color: rgb(245,245,245);
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+}
+.forthd p{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 10px 20px;
+}
+.forthd h3{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin: 10px 20px;
+    background-color: rgb(234,91,12);
+    color: white;
+    width: fit-content;
+}
+.fifthd{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#obb{
+    font-size: 50px;
+    justify-content: center;
+}
+.slided{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: 400px;
+    /* gap: 2px; */
+    padding: 30px;
+   
+}
+.slided img{
+    width: 130px;
+    height: 80px;
+    display: block;
+    /* margin: 10px; */
+    padding: 10px;
+    justify-content: center;
+    /* align-items: center; */
+    /* border-radius: 15px 15px; */
+}
+.slided::-webkit-scrollbar{
+    display: none;
+}
+.bdiv, button{
+    background-color: rgb(234,91,12);
+    color: white;
+    border-radius: 60px;
+    width: 160px;
+    height: 55px;
+    margin: auto;
+    /* justify-content: center; */
+}
+.dotdiv{
+    background-color: gray;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+}
+.dot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+.last{
+    background-color: black;
+    width: 170px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    position: fixed;
+    right: 0%;
+    bottom: 5%;
+    text-align: center;
+    justify-content: center;
+}
